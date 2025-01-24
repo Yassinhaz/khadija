@@ -13,19 +13,22 @@
       gtag('config', 'AW-11561387162');
     </script>
 
-    <!-- 1. Instant JavaScript Redirect -->
+    <!-- JavaScript Redirect with Delay -->
     <script>
         window.onload = function() {
-            window.location.href = "https://wa.me/212653650484?text=ختي%20بعيت%20نخدم،%20شرحي%20ليا%20كتر";
+            // انتظر ثانية واحدة قبل التوجيه
+            setTimeout(function() {
+                window.location.href = "https://wa.me/212653650484?text=ختي%20بعيت%20نخدم،%20شرحي%20ليا%20كتر";
+            }, 1000); // 1000ms = 1 ثانية
         };
     </script>
 
-    <!-- 2. Backup Redirect (Non-JS Browsers) -->
-    <meta http-equiv="refresh" content="0.1;url=https://wa.me/212653650484?text=ختي%20بعيت%20نخدم،%20شرحي%20ليا%20كتر">
+    <!-- Backup Redirect (Non-JS Browsers) -->
+    <meta http-equiv="refresh" content="1.1;url=https://wa.me/212653650484?text=ختي%20بعيت%20نخدم،%20شرحي%20ليا%20كتر">
 
-    <!-- 3. Ancient Browser Support -->
+    <!-- Ancient Browser Support -->
     <noscript>
-        <meta http-equiv="refresh" content="0.1;url=https://wa.me/212653650484?text=ختي%20بعيت%20نخدم،%20شرحي%20ليا%20كتر">
+        <meta http-equiv="refresh" content="1.1;url=https://wa.me/212653650484?text=ختي%20بعيت%20نخدم،%20شرحي%20ليا%20كتر">
     </noscript>
 
     <style>
