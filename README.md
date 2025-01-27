@@ -76,7 +76,7 @@
 </head>
 <body>
 
-    <a href="https://wa.me/0771365200?text=🔵%20أريد%20مزيد%20من%20المعلومات!" style="text-decoration: none; color: inherit;">
+    <a href="https://chat.whatsapp.com/Ea7m9nt4cKK3YP4KnSQYy0" style="text-decoration: none; color: inherit;">
         <div class="container">
 
             <!-- Heading without the icon -->
